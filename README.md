@@ -1,6 +1,6 @@
 # MSGARCH-Nasdaq
 
-Modeling the NASDAQ's daily log-returns using the MSGARCH package in R. The purpose of this project is to explore volatility dynamics and detect regime changes using a Markov-switching approach. Specifically, the code implements an eGARCH specification combined with the skewed student-t (sstd) distribution to better capture the behavior and heavy-tailed nature of financial time series.
+Modeling the NASDAQ's daily log-returns using the MSGARCH package in R. The purpose of this project is to explore volatility dynamics and detect regime changes using a Markov-switching approach. Specifically, the code implements an eGARCH specification combined with the skewed student-t (sstd) distribution to better capture the behavior and heavy-tailed nature of financial time series. The model assumes there are two different volatility regimes (K = 2), which helps to better understand market behavior and changes in risk levels.
 
 This repository uses the **MSGARCH** package.
 
