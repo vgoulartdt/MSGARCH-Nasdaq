@@ -3,7 +3,7 @@ library(quantmod)
 library(ggplot2)
 
 
-## Fetch NASDAQ data
+## Fetch NASDAQ data (getSymbols retrieves data by default from Yahoo Finance)
 getSymbols("^IXIC", from = "1980-01-01", to = "2025-01-01")
 get_nasdaq <- IXIC
 nasdaq_price <- get_nasdaq$IXIC.Adjusted
